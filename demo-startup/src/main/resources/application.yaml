@@ -1,0 +1,67 @@
+server:
+  port: 10020
+  compression:
+    enabled: true
+    min-response-size: 1024
+    mime-types:
+      text/css,
+      text/html,
+      image/png,
+      image/jpeg,
+      application/json,
+      application/javascript,
+      application/octet-stream
+spring:
+  profiles:
+    active: dev
+    http:
+      multipart:
+        max-request-size: 1024MB
+        max-file-size:  1024MB
+  datasource:
+    druid:
+      stat-view-servlet:
+        #排除一些不必要的拦截
+        exclusions: .js,.gif,.jpg,.bmp,.png,.css,.ico,/druid/*
+        # 开启druid监控 http://localhost:8080/druid/index.html
+        enabled: true
+        login-username: admin
+        login-password: 123456
+      web-stat-filter:
+        enabled: true
+        url-pattern: /api/*
+        session-stat-enable: true
+      #监控路径
+      aop-patterns:
+        com.hwj.demo.dao.*,
+        com.hwj.demo.service.*,
+        com.hwj.demo.web.*
+    dynamic:
+      druid:
+        stat:
+          merge-sql: true
+          log-slow-sql: true
+          slow-sql-millis: 3000
+        filters: config,stat,wall
+        time-between-log-stats-millis: 300000
+        pool-prepared-statements: true
+        wall:
+          multi-statement-allow: true
+      datasource:
+        slave_1:
+          username: ${spring.datasource.dynamic.datasource.master.username}
+          password: ${spring.datasource.dynamic.datasource.master.password}
+          url: ${spring.datasource.dynamic.datasource.master.url}
+          driver-class-name: ${spring.datasource.dynamic.datasource.master.driver-class-name}
+logging:
+  config: classpath:logback.xml
+mybatis:
+  configuration:
+    call-setters-on-nulls: true
+  mapperLocations: classpath*:mapper/**/*.xml
+  typeAliasesPackage: com.hwj.demo.entity
+pagehelper:
+  reasonable: false
+  helper-dialect: oracle
+  params: count=countSql
+  support-methods-arguments: true
