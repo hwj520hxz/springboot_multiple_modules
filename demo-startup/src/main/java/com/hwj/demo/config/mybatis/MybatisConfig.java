@@ -18,7 +18,7 @@ import java.util.Properties;
 /**
  * @author ：hwj
  * @version 版本号：V1.0
- * @Description ：支持读写分离
+ * @Description ：基于spring和mybatis拦截器实现支持读写分离
  */
 
 @Configuration
@@ -48,6 +48,9 @@ public class MybatisConfig {
         private static final String MASTER = "master";
         private static final String SLAVE = "slave";
 
+        /**
+         * @Description: 核心方法
+         **/
         @Override
         public Object intercept(Invocation invocation) throws Throwable {
             if (!StringUtil.isEmpty(DynamicDataSourceContextHolder.peek())) return invocation.proceed();

@@ -20,13 +20,15 @@ public class User {
     private String password;
     @ApiModelProperty(value = "邮箱",position = 1003)
     private String userEmail;
-    @ApiModelProperty(value = "用户性别",position = 1004)
+    @ApiModelProperty(value = "电话",position = 1004)
+    private String userTel;
+    @ApiModelProperty(value = "用户性别",position = 1005)
     private String userSex;
-    @ApiModelProperty(value = "用户状态",position = 1005)
+    @ApiModelProperty(value = "用户状态",position = 1006)
     private String status;
-    @ApiModelProperty(value = "创建时间",position = 1006)
+    @ApiModelProperty(value = "创建时间",position = 1007)
     private String createTime;
-    @ApiModelProperty(value = "更新时间",position = 1007)
+    @ApiModelProperty(value = "更新时间",position = 1008)
     private String updateTime;
 
     public String getUserId() {
@@ -59,6 +61,14 @@ public class User {
 
     public void setUserEmail(String userEmail) {
         this.userEmail = userEmail;
+    }
+
+    public String getUserTel() {
+        return userTel;
+    }
+
+    public void setUserTel(String userTel) {
+        this.userTel = userTel;
     }
 
     public String getUserSex() {

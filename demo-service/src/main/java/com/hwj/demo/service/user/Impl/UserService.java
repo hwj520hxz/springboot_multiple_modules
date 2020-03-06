@@ -8,6 +8,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.text.MessageFormat;
+import java.util.List;
+import java.util.Map;
 
 /**
  * @author ：hwj
@@ -19,6 +21,9 @@ public class UserService implements IUserService {
     @Autowired
     private UserMapper userMapper;
 
+    /**
+     * @Description: 根据用户账号密码查询用户
+     **/
     public User queryUserByAcount(String userName, String password) throws BusinessException {
         try {
             return userMapper.queryUserByAcount(userName, password);
@@ -26,6 +31,17 @@ public class UserService implements IUserService {
             e.printStackTrace();
             String errMsg = MessageFormat.format("不存在该用户[{0}],异常信息为[{1}]",userName,e.getMessage());
             throw new BusinessException(errMsg);
+        }
+    }
+
+    /**
+     * @Description: 查询所有用户
+     **/
+    public List<Map<String,Object>> queryUsers() throws BusinessException {
+        try {
+            return userMapper.queryUsers();
+        } catch (Exception e){
+            throw new BusinessException("查询出现异常");
         }
     }
 }
