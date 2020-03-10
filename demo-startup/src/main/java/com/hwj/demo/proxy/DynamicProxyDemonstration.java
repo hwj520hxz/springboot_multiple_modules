@@ -6,7 +6,7 @@ import java.lang.reflect.Proxy;
 /**
  * @author ：hwj
  * @version 版本号：V1.0
- * @Description ：
+ * @Description ：JDK代理要求被代理的类必须实现接口，有很强的局限性
  */
 public class DynamicProxyDemonstration {
     public static void main(String[] args) {
