@@ -1,5 +1,6 @@
 package com.hwj.demo.web.user;
 
+import com.hwj.demo.annotations.LoggerOperator;
 import com.hwj.demo.data.ResponseResult;
 import com.hwj.demo.entity.User;
 import com.hwj.demo.util.MD5Utils;
@@ -22,6 +23,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class LoginController {
     @PostMapping(value = "/login")
+    @LoggerOperator(description = "用户登录")
     public ResponseResult login(String username, String password) {
 
         try {

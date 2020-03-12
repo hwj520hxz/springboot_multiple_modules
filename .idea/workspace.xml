@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c88b0a9d-c810-4aa5-9ce9-6e640f46112b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-startup/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-startup/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-startup/src/main/java/com/hwj/demo/proxy/DynamicProxyDemonstration.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-startup/src/main/java/com/hwj/demo/proxy/DynamicProxyDemonstration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-web/src/main/java/com/hwj/demo/web/user/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-web/src/main/java/com/hwj/demo/web/user/LoginController.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,56 +26,43 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo-startup/src/main/java/com/hwj/demo/proxy/RealSubject.java">
+        <entry file="file://$PROJECT_DIR$/demo-web/src/main/java/com/hwj/demo/web/user/LoginController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
-              <folding>
-                <element signature="e#248#249#0" expanded="true" />
-                <element signature="e#286#287#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo-startup/src/main/java/com/hwj/demo/proxy/DynamicProxyDemonstration.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+            <state relative-caret-position="286">
+              <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo-startup/src/main/java/com/hwj/demo/proxy/CGLIBDynamicProxy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo-startup/src/main/java/com/hwj/demo/proxy/Subject.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/demo-startup/src/main/java/com/hwj/demo/proxy/HelloMethodInterceptor.java">
+        <entry file="file://$PROJECT_DIR$/demo-common/src/main/java/com/hwj/demo/aop/LoggerAspect.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="12" column="68" selection-start-line="12" selection-start-column="68" selection-end-line="12" selection-end-column="68" />
+            <state relative-caret-position="412">
+              <caret line="38" column="13" lean-forward="true" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo-common/src/main/java/com/hwj/demo/service/impl/LoggerServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="41">
+              <caret line="2" column="28" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo-dao/src/main/resources/mapper/logger/LoggerMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="454">
+              <caret line="50" column="31" selection-start-line="50" selection-start-column="31" selection-end-line="50" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -103,14 +90,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/demo-entity/pom.xml" />
-        <option value="$PROJECT_DIR$/demo-entity/src/main/resources/userMapper.xml" />
-        <option value="$PROJECT_DIR$/demo-common/src/main/java/com/hwj/demo/data/ResponseResult.java" />
-        <option value="$PROJECT_DIR$/demo-common/src/main/java/com/hwj/demo/businessEnum/ErrorStatus.java" />
-        <option value="$PROJECT_DIR$/demo-common/pom.xml" />
-        <option value="$PROJECT_DIR$/demo-startup/src/main/java/com/hwj/demo/config/swagger/SwaggerConfig.java" />
-        <option value="$PROJECT_DIR$/demo-service/src/main/java/com/hwj/demo/service/user/impl/UserService.java" />
         <option value="$PROJECT_DIR$/demo-service/src/main/java/com/hwj/demo/service/user/Impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/demo-service/pom.xml" />
         <option value="$PROJECT_DIR$/demo-common/src/main/java/com/hwj/demo/exception/ErrorCode.java" />
@@ -131,7 +110,6 @@
         <option value="$PROJECT_DIR$/demo-web/pom.xml" />
         <option value="$PROJECT_DIR$/demo-common/src/main/java/com/hwj/demo/util/ExportExcelUtil.java" />
         <option value="$PROJECT_DIR$/demo-common/src/main/java/com/hwj/demo/util/ExcelPathUtils.java" />
-        <option value="$PROJECT_DIR$/demo-web/src/main/java/com/hwj/demo/web/user/LoginController.java" />
         <option value="$PROJECT_DIR$/demo-entity/src/main/java/com/hwj/demo/entity/User.java" />
         <option value="$PROJECT_DIR$/demo-common/src/main/java/com/hwj/demo/util/ResponseUtil.java" />
         <option value="$PROJECT_DIR$/demo-service/src/main/java/com/hwj/demo/service/user/JdkProxy.java" />
@@ -145,6 +123,24 @@
         <option value="$PROJECT_DIR$/demo-startup/src/main/java/com/hwj/demo/proxy/CGLIBDynamicProxy.java" />
         <option value="$PROJECT_DIR$/demo-startup/src/main/java/com/hwj/demo/proxy/DynamicProxyDemonstration.java" />
         <option value="$PROJECT_DIR$/demo-startup/src/main/java/com/hwj/demo/proxy/HelloMethodInterceptor.java" />
+        <option value="$PROJECT_DIR$/demo-common/src/main/java/com/hwj/demo/annotations/LoggerOperator.java" />
+        <option value="$PROJECT_DIR$/demo-entity/src/main/java/com/hwj/demo/entity/Logger.java" />
+        <option value="$PROJECT_DIR$/demo-service/src/main/java/com/hwj/demo/service/logger/LoggerService.java" />
+        <option value="$PROJECT_DIR$/demo-service/src/main/java/com/hwj/demo/service/logger/impl/LoggerServiceImpl.java" />
+        <option value="$PROJECT_DIR$/demo-dao/src/main/java/com/hwj/demo/dao/user/LoggerMapper.java" />
+        <option value="$PROJECT_DIR$/demo-common/src/main/java/com/hwj/demo/util/IpUtil.java" />
+        <option value="$PROJECT_DIR$/demo-common/src/main/java/com/hwj/demo/aop/CommonAop.java" />
+        <option value="$PROJECT_DIR$/demo-common/src/main/java/com/hwj/demo/controller.java" />
+        <option value="$PROJECT_DIR$/demo-common/src/main/java/com/hwj/demo/service/LoggerService.java" />
+        <option value="$PROJECT_DIR$/demo-common/src/main/java/com/hwj/demo/service/logger/LoggerService.java" />
+        <option value="$PROJECT_DIR$/demo-common/src/main/java/com/hwj/demo/service/logger/impl/LoggerServiceImpl.java" />
+        <option value="$PROJECT_DIR$/demo-common/src/main/java/com/hwj/demo/mapper/LoggerMapper.java" />
+        <option value="$PROJECT_DIR$/demo-common/src/resources/mapper/LoggerMapper.xml" />
+        <option value="$PROJECT_DIR$/demo-common/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-common/src/main/java/com/hwj/demo/service/impl/LoggerServiceImpl.java" />
+        <option value="$PROJECT_DIR$/demo-web/src/main/java/com/hwj/demo/web/user/LoginController.java" />
+        <option value="$PROJECT_DIR$/demo-dao/src/main/resources/mapper/logger/LoggerMapper.xml" />
+        <option value="$PROJECT_DIR$/demo-common/src/main/java/com/hwj/demo/aop/LoggerAspect.java" />
       </list>
     </option>
   </component>
@@ -193,8 +189,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -205,52 +199,181 @@
             <path>
               <item name="demoparent" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot_multiple_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="demo-startup" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="demoparent" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot_multiple_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="demo-startup" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="demoparent" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot_multiple_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="demo-startup" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demoparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot_multiple_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="demo-startup" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="demoparent" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot_multiple_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="demo-startup" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="demoparent" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot_multiple_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="demo-startup" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="proxy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demoparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot_multiple_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="aop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demoparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot_multiple_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demoparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot_multiple_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demoparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot_multiple_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-entity" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demoparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot_multiple_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-entity" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demoparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot_multiple_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-entity" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demoparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot_multiple_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-entity" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demoparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot_multiple_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demoparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot_multiple_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demoparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot_multiple_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demoparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot_multiple_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demoparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot_multiple_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-startup" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demoparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot_multiple_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-startup" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demoparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot_multiple_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-startup" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demoparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot_multiple_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-startup" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demoparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot_multiple_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demoparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot_multiple_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demoparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot_multiple_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demoparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot_multiple_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demoparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot_multiple_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -262,10 +385,11 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583822142184" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1584003107381" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -273,18 +397,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.hwj.demo.config.mybatis" />
-      <recent name="com.hwj.demo.controller" />
-      <recent name="com.hwj.demo.exception" />
-      <recent name="com.hwj.demo.service.user.Impl" />
-      <recent name="com.hwj.demo.config.swagger" />
+      <recent name="com.hwj.demo.mapper" />
+      <recent name="com.hwj.demo.service" />
+      <recent name="com.hwj.demo.util" />
+      <recent name="com.hwj.demo.dao.user" />
+      <recent name="com.hwj.demo.entity" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\springboot_multiple_modules\demo-dao\src\main\resources\mapper\logger" />
+      <recent name="G:\springboot_multiple_modules\demo-common\src\resources\mapper" />
+      <recent name="G:\springboot_multiple_modules\demo-common\src" />
       <recent name="G:\springboot_multiple_modules\demo-common\src\main\java\com\hwj\demo" />
       <recent name="G:\springboot\demo-startup\src\main\resources" />
-      <recent name="G:\springboot\demo-common\src\main\java\com\hwj\demo" />
-      <recent name="G:\springboot\demo-service\src\main\java\com\hwj\demo\service" />
-      <recent name="G:\springboot\demo-entity\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -299,7 +423,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CGLIBDynamicProxy">
+  <component name="RunManager" selected="Spring Boot.Startup">
     <configuration name="CGLIBDynamicProxy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hwj.demo.proxy.CGLIBDynamicProxy" />
       <module name="demo-startup" />
@@ -369,6 +493,7 @@
       <workItem from="1583460537646" duration="8013000" />
       <workItem from="1583477411589" duration="2666000" />
       <workItem from="1583803468264" duration="9623000" />
+      <workItem from="1583998663844" duration="4442000" />
     </task>
     <task id="LOCAL-00001" summary="接入shiro登录校验">
       <created>1583479749667</created>
@@ -384,11 +509,18 @@
       <option name="project" value="LOCAL" />
       <updated>1583810809279</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="新增CGLIB代理的分析测试代码">
+      <created>1583822168113</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1583822168113</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35527000" />
+    <option name="totallyTimeSpent" value="40710000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -403,7 +535,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25799572" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26066098" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -412,8 +544,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32925472" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25278395" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32850778" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.298441" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.33741647" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -441,7 +573,7 @@
       <window_info anchor="right" id="Bean Validation" order="10" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26066098" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -450,12 +582,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32925472" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32925472" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.25278395" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.33741647" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.11024499" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
@@ -465,11 +597,12 @@
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
       <window_info anchor="bottom" id="Version Control" order="15" />
+      <window_info anchor="bottom" id="Messages" order="16" weight="0.32962137" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Maven" order="3" weight="0.32995737" />
-      <window_info anchor="right" id="PlantUML" order="4" />
+      <window_info anchor="right" id="PlantUML" order="4" weight="0.32995737" />
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Database" order="7" />
@@ -484,119 +617,12 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="接入shiro登录校验" />
     <MESSAGE value="新增JDK代理的分析测试代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增JDK代理的分析测试代码" />
+    <MESSAGE value="新增CGLIB代理的分析测试代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增CGLIB代理的分析测试代码" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/demo-startup/src/main/resources/logback.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-705">
-          <caret line="17" column="46" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-startup/src/main/java/com/hwj/demo/config/swagger.java" />
-    <entry file="file://$PROJECT_DIR$/demo-startup/src/main/java/com/hwj/demo/config/swagger/SwaggerConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="6" column="47" lean-forward="true" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-service/src/main/java/com/hwj/demo/service/user/Impl/UserServiceImpl.java" />
-    <entry file="file://$PROJECT_DIR$/demo-common/src/main/java/com/hwj/demo/exception/ErrorCode.java" />
-    <entry file="file://$PROJECT_DIR$/demo-common/src/main/java/com/hwj/demo/exception/StatusCode.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-common/src/main/java/com/hwj/demo/exception/BusinessException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/bosssoft/monitor-service/1.0-SNAPSHOT/monitor-service-1.0-SNAPSHOT.jar!/com/bosssoft/monitor/service/UserService.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/广告.url">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-common/src/main/java/com/hwj/demo/controller/BasicController.java" />
-    <entry file="file://$PROJECT_DIR$/demo-startup/src/main/java/com/hwj/demo/config/mybatis/MybatisConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="25" column="28" lean-forward="true" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2751#2752#0" expanded="true" />
-            <element signature="e#2845#2846#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-startup/src/main/java/com/hwj/demo/Startup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-dao/src/main/java/com/hwj/demo/dao/user/UserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="43" lean-forward="true" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-dao/src/main/resources/mapper/user/userMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="34" column="14" lean-forward="true" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-dao/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-common/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-common/src/main/java/com/hwj/demo/util/IpUtil.java" />
-    <entry file="file://$PROJECT_DIR$/demo-common/src/main/java/com/hwj/demo/util/ExportExcelUtil.java" />
-    <entry file="file://$PROJECT_DIR$/demo-common/src/main/java/com/hwj/demo/util/ExcelPathUtils.java" />
     <entry file="file://$PROJECT_DIR$/demo-common/src/main/java/com/hwj/demo/util/MD5Utils.java">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="20" column="21" lean-forward="true" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demo-entity/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -661,16 +687,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo-web/src/main/java/com/hwj/demo/web/user/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="678">
-          <caret line="42" column="46" lean-forward="true" selection-start-line="42" selection-start-column="46" selection-end-line="42" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/demo-startup/src/main/java/com/hwj/demo/config/shiro/CustomRealm.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
@@ -708,16 +724,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo-web/src/main/java/com/hwj/demo/web/user/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="551">
@@ -732,13 +738,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo-startup/src/main/resources/application.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.22.RELEASE/spring-context-4.3.22.RELEASE.jar!/org/springframework/context/annotation/ConfigurationClassEnhancer.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-378">
@@ -748,27 +747,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo-service/src/main/java/com/hwj/demo/service/user/JdkProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="25" column="32" lean-forward="true" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#335#336#0" expanded="true" />
-            <element signature="e#367#368#0" expanded="true" />
-            <element signature="e#417#418#0" expanded="true" />
-            <element signature="e#459#460#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-startup/src/main/java/com/hwj/demo/proxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-service/src/main/java/com/hwj/demo/service/user/JdkProxy.java" />
+    <entry file="file://$PROJECT_DIR$/demo-startup/src/main/java/com/hwj/demo/proxy.java" />
     <entry file="jar://E:/java/jdk/src.zip!/java/lang/reflect/Method.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="67">
@@ -806,16 +786,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo-startup/src/main/java/com/hwj/demo/proxy/InvocationHandlerImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="34" column="7" lean-forward="true" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/demo-service/src/main/java/com/hwj/demo/service/user/Impl/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="411">
@@ -838,7 +808,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/demo-startup/src/main/java/com/hwj/demo/proxy/RealSubject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
+        <state relative-caret-position="336">
           <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
           <folding>
             <element signature="e#248#249#0" expanded="true" />
@@ -847,17 +817,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo-startup/pom.xml">
+    <entry file="file://$PROJECT_DIR$/demo-startup/src/main/java/com/hwj/demo/proxy/DynamicProxyDemonstration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+        <state relative-caret-position="231">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demo-startup/src/main/java/com/hwj/demo/proxy/CGLIBDynamicProxy.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
-          <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-startup/src/main/java/com/hwj/demo/proxy/InvocationHandlerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="34" column="7" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -868,20 +851,191 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo-startup/src/main/java/com/hwj/demo/proxy/DynamicProxyDemonstration.java">
+    <entry file="file://$PROJECT_DIR$/demo-startup/src/main/java/com/hwj/demo/proxy/HelloMethodInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        <state relative-caret-position="399">
+          <caret line="19" column="28" lean-forward="true" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo-startup/src/main/java/com/hwj/demo/proxy/HelloMethodInterceptor.java">
+    <entry file="file://$PROJECT_DIR$/demo-startup/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="87" column="21" lean-forward="true" selection-start-line="82" selection-start-column="8" selection-end-line="87" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-common/src/main/java/com/hwj/demo/annotations/LoggerOperator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-common/src/main/java/com/hwj/demo/util/IpUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-294">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-common/src/main/java/com/hwj/demo/service.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-common/src/main/java/com/hwj/demo/controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-service/src/main/java/com/hwj/demo/service/logger/LoggerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="34" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-service/src/main/java/com/hwj/demo/service/logger/impl/LoggerServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-common/src/main/java/com/hwj/demo/service/LoggerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="39" column="23" lean-forward="true" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-common/src/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-common/src/resources/mapper/LoggerMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-common/src/main/java/com/hwj/demo/mapper/LoggerMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="19" column="21" selection-start-line="14" selection-start-column="8" selection-end-line="19" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-dao/src/main/java/com/hwj/demo/dao/user/LoggerMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-web/src/main/java/com/hwj/demo/web/user/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-startup/src/main/resources/application.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-common/src/main/java/com/hwj/demo/aop/CommonAop.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
-          <caret line="12" column="68" selection-start-line="12" selection-start-column="68" selection-end-line="12" selection-end-column="68" />
+          <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-web/src/main/java/com/hwj/demo/web/user/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.3.22.RELEASE/spring-aop-4.3.22.RELEASE-sources.jar!/org/springframework/aop/aspectj/AbstractAspectJAdvice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="634" selection-start-line="634" selection-end-line="634" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-entity/src/main/java/com/hwj/demo/entity/Logger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-dao/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-63" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="32" column="20" lean-forward="true" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-dao/src/main/resources/mapper/logger/LoggerMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="454">
+          <caret line="50" column="31" selection-start-line="50" selection-start-column="31" selection-end-line="50" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-common/src/main/java/com/hwj/demo/service/impl/LoggerServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="41">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-common/src/main/java/com/hwj/demo/aop/LoggerAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="38" column="13" lean-forward="true" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

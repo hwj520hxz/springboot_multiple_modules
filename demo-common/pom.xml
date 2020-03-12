@@ -24,6 +24,17 @@
             <artifactId>druid-spring-boot-starter</artifactId>
             <version>${druid-spring-boot-starter.version}</version>
         </dependency>
+        <!--AOP相关依赖-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-aop</artifactId>
+        </dependency>
+        <!--依赖dao模块-->
+        <dependency>
+            <groupId>hwj-demo</groupId>
+            <artifactId>demo-dao</artifactId>
+            <version>${demo-dao.version}</version>
+        </dependency>
     </dependencies>
 
 
