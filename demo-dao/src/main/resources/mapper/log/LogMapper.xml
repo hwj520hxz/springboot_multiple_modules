@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hwj.demo.dao.log.LogMapper">
+
+    <resultMap id="logMap" type="com.hwj.demo.entity.Log">
+        <result column="logId" jdbcType="VARCHAR" property="logId" />
+        <result column="type" jdbcType="VARCHAR" property="type" />
+        <result column="title" jdbcType="VARCHAR" property="title" />
+        <result column="remoteAddr" jdbcType="VARCHAR" property="remoteAddr" />
+        <result column="requestUri" jdbcType="VARCHAR" property="requestUri" />
+        <result column="method" jdbcType="VARCHAR" property="method" />
+        <result column="params" jdbcType="VARCHAR" property="params" />
+        <result column="exception" jdbcType="VARCHAR" property="exception" />
+        <result column="operateDate" jdbcType="VARCHAR" property="operateDate" />
+        <result column="timeout" jdbcType="VARCHAR" property="timeout" />
+        <result column="userId" jdbcType="VARCHAR" property="userId" />
+        <result column="resultParams" jdbcType="VARCHAR" property="resultParams" />
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        logId, type, title, remoteAddr, requestUri, method, params, exception, operateDate, timeout, userId, resultParams
+    </sql>
+
+    <select id="queryLog" resultMap="logMap">
+        select * from log
+    </select>
+
+    <insert id="insertLog" parameterType="com.hwj.demo.entity.Log">
+        insert into log
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="logId != null">
+                logId,
+            </if>
+            <if test="type != null">
+                type,
+            </if>
+            <if test="title != null">
+                title,
+            </if>
+            <if test="remoteAddr != null">
+                remoteAddr,
+            </if>
+            <if test="requestUri != null">
+                requestUri,
+            </if>
+            <if test="method != null">
+                method,
+            </if>
+            <if test="params != null">
+                params,
+            </if>
+            <if test="exception != null">
+                exception,
+            </if>
+            <if test="operateDate != null">
+                operateDate,
+            </if>
+            <if test="timeout != null">
+                timeout,
+            </if>
+            <if test="userId != null">
+                userId,
+            </if>
+            <if test="resultParams != null">
+                resultParams
+            </if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="logId != null">
+                #{logId},
+            </if>
+            <if test="type != null">
+                #{type},
+            </if>
+            <if test="title != null">
+                #{title},
+            </if>
+            <if test="remoteAddr != null">
+                #{remoteAddr},
+            </if>
+            <if test="requestUri != null">
+                #{requestUri},
+            </if>
+            <if test="method != null">
+                #{method},
+            </if>
+            <if test="params != null">
+                #{params},
+            </if>
+            <if test="exception != null">
+                #{exception},
+            </if>
+            <if test="operateDate != null">
+                #{operateDate},
+            </if>
+            <if test="timeout != null">
+                #{timeout},
+            </if>
+            <if test="userId != null">
+                #{userId},
+            </if>
+            <if test="resultParams != null">
+                #{resultParams}
+            </if>
+        </trim>
+    </insert>
+
+
+
+</mapper>

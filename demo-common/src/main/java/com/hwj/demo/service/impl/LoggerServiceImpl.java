@@ -1,6 +1,7 @@
 package com.hwj.demo.service.impl;
 
-import com.hwj.demo.dao.user.LoggerMapper;
+
+import com.hwj.demo.dao.logger.LoggerMapper;
 import com.hwj.demo.entity.Logger;
 
 import com.hwj.demo.exception.BusinessException;

@@ -1,16 +1,14 @@
 package com.hwj.demo.service;
 
-
-import com.hwj.demo.entity.Logger;
+import com.hwj.demo.entity.Log;
 
 /**
  * @author ：hwj
  * @version 版本号：V1.0
  * @Description ：操作日志服务接口
  */
-public interface LoggerService {
+public interface LogService {
 
-    void insertLog(Logger logger);
-
-
+    public void insertLog(Log log);
+    public void updateLog(Log log);
 }

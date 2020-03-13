@@ -3,6 +3,8 @@ package com.hwj.demo;
 import com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cache.annotation.EnableCaching;
+import org.springframework.scheduling.annotation.EnableScheduling;
 
 /**
  * @author ：hwj
@@ -11,6 +13,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * SpringBootApplication：禁止自动注入数据源的配置
  * mapper的扫描配置在MybatisConfig类中，所以不需要加@MapperScan再次扫描mapper
  */
+//@EnableCaching
+//@EnableScheduling
 @SpringBootApplication(exclude = {DruidDataSourceAutoConfigure.class})
 public class Startup {
     public static void main(String[] args){

@@ -65,3 +65,9 @@ pagehelper:
   helper-dialect: oracle
   params: count=countSql
   support-methods-arguments: true
+
+threadpool:
+  core-pool-size: 10
+  max-pool-size: 20
+  queue-capacity: 1000
+  keep-alive-seconds: 300

@@ -1,0 +1,45 @@
+2020-03-13 17:32:35.308 ERROR com.alibaba.druid.filter.stat.StatFilter Line:478 - slow sql 3237 millis. insert into log
+         ( logId,
+            
+            
+                type,
+            
+            
+                title,
+            
+            
+                remoteAddr,
+            
+            
+                requestUri,
+            
+            
+                method,
+            
+            
+                params,
+            
+            
+                exception ) 
+         values ( ?,
+            
+            
+                ?,
+            
+            
+                ?,
+            
+            
+                ?,
+            
+            
+                ?,
+            
+            
+                ?,
+            
+            
+                ?,
+            
+            
+                ? )["C1DBDEE8E03841EA939970A1C9FD72A1","info","用户登录","0:0:0:0:0:0:0:1","/login","POST","username:[Ljava.lang.String;@1819058password:[Ljava.lang.String;@805447","无异常!"]
